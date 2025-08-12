@@ -3,18 +3,40 @@
     {
       "name": "Jay-r",
       "birthdate": "2006-02-14",
-      "age": 19
+      "age": 19,
+      "age_details": {
+        "years": 19,
+        "months": 5,
+        "days": 28,
+        "hours": 0,
+        "total_years": 19.49
+      }
     },
     {
       "name": "Noynoy",
       "birthdate": "2008-08-21",
-      "age": 16
+      "age": 16,
+      "age_details": {
+        "years": 16,
+        "months": 11,
+        "days": 21,
+        "hours": 0,
+        "total_years": 16.98
+      }
     },
     {
       "name": "Axel",
       "birthdate": "2024-08-20",
-      "age": 0
+      "age": 0,
+      "age_details": {
+        "years": 0,
+        "months": 11,
+        "days": 22,
+        "hours": 0,
+        "total_years": 0.98
+      }
     }
   ],
-  "last_updated": "2025-08-12"
+  "last_updated": "2025-08-12",
+  "last_updated_full": "August 12, 2025 00:00:00 (WITA)"
 }
