@@ -1,9 +1,0 @@
-This is a test file for the my-cat utility.
-It has multiple lines with different content.
-
-This line is after an empty line.
-   This line has leading spaces.
-		This line has tab indentation.
-
-Another empty line above.
-The last line of the file.
