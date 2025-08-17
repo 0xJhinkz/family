@@ -7,21 +7,21 @@
       "age_details": {
         "years": 19,
         "months": 6,
-        "days": 8,
+        "days": 9,
         "hours": 1,
-        "total_years": 19.52191780821918
+        "total_years": 19.524657534246575
       }
     },
     {
       "name": "Noynoy",
       "birthdate": "2008-08-21",
-      "age": 16,
+      "age": 17,
       "age_details": {
-        "years": 16,
-        "months": 12,
-        "days": 4,
+        "years": 17,
+        "months": 0,
+        "days": 0,
         "hours": 1,
-        "total_years": 17.01095890410959
+        "total_years": 17.0
       }
     },
     {
@@ -31,12 +31,12 @@
       "age_details": {
         "years": 0,
         "months": 12,
-        "days": 1,
+        "days": 2,
         "hours": 1,
-        "total_years": 1.0027397260273974
+        "total_years": 1.0054794520547945
       }
     }
   ],
-  "last_updated": "2025-08-16",
-  "last_updated_full": "August 16, 2025 09:58:05 (WITA)"
+  "last_updated": "2025-08-17",
+  "last_updated_full": "August 17, 2025 09:50:07 (WITA)"
 }

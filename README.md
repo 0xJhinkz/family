@@ -1,5 +1,18 @@
 ## Family Information
 
+> Last updated: August 17, 2025 09:50:07 (Denpasar, WITA Time (UTC+8))
+
+Below are my siblings and their current ages:
+
+| Name | Birthdate | Age | Detailed Age |
+|------|-----------|-----|-------------|
+| Jay-r | February 14, 2006 | 19 | 19 years, 6 months, 9 days, 1 hours |
+| Noynoy | August 21, 2008 | 17 | 17 years, 0 months, 0 days, 1 hours |
+| Axel | August 20, 2024 | 0 | 0 years, 12 months, 2 days, 1 hours |
+
+
+## Family Information
+
 > Last updated: August 16, 2025 09:58:05 (Denpasar, WITA Time (UTC+8))
 
 Below are my siblings and their current ages:
