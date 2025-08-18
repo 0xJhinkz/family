@@ -80,38 +80,46 @@ def update_readme(data):
         content = file.read()
     print("Successfully loaded README.md")
     
-    # Find the table section with siblings info
-    table_pattern = r"## Family Information\n\nBelow are my siblings and their current ages.*?(?=\n\n## |$)"
-    table_section = re.search(table_pattern, content, re.DOTALL)
-    
     # Get update timestamp with timezone info
     wita_timezone = ZoneInfo("Asia/Makassar")
     now = datetime.now(wita_timezone)
     update_timestamp = now.strftime('%B %d, %Y %H:%M:%S') + ' (Denpasar, WITA Time (UTC+8))'
     print(f"Generated timestamp: {update_timestamp}")
     
-    siblings_table = f"## Family Information\n\n> Last updated: {update_timestamp}\n\nBelow are my siblings and their current ages:\n\n| Name | Birthdate | Age | Detailed Age |\n|------|-----------|-----|-------------|\n"
+    # Create the new family information section
+    new_family_section = f"""## Family Information
+
+> Last updated: {update_timestamp}
+
+Below are my siblings and their current ages:
+
+| Name | Birthdate | Age | Detailed Age |
+|------|-----------|-----|-------------|"""
     
     for sibling in data['siblings']:
         birth_date = datetime.strptime(sibling['birthdate'], '%Y-%m-%d')
         formatted_date = birth_date.strftime('%B %d, %Y')
         age_details = sibling['age_details']
         detailed_age = f"{age_details['years']} years, {age_details['months']} months, {age_details['days']} days, {age_details['hours']} hours"
-        siblings_table += f"| {sibling['name']} | {formatted_date} | {sibling['age']} | {detailed_age} |\n"
+        new_family_section += f"\n| {sibling['name']} | {formatted_date} | {sibling['age']} | {detailed_age} |"
     
-    if table_section:
-        # Replace the existing table with the updated one
-        print("Found existing family information section, updating it...")
-        updated_content = re.sub(table_pattern, siblings_table.strip(), content, flags=re.DOTALL)
+    # Look for existing family information sections and replace ALL of them
+    # This pattern matches from ## Family Information to the next ## or end of file
+    family_section_pattern = r"## Family Information\n\n> Last updated:.*?(?=\n\n## |$)"
+    
+    if re.search(family_section_pattern, content, re.DOTALL):
+        print("Found existing family information section(s), replacing all of them...")
+        # Replace all occurrences of family information sections
+        updated_content = re.sub(family_section_pattern, new_family_section, content, flags=re.DOTALL)
     else:
-        # If section doesn't exist, add it after the main description
-        print("No existing family information section found, creating new section...")
-        main_desc_pattern = r"# my-cat\n\nA simple implementation.*?(?=\n\n)"
+        print("No existing family information section found, adding new section...")
+        # If no section exists, add it after the main description
+        main_desc_pattern = r"(# Siblings Age Tracker\n\nAn automated system.*?)(\n\n## |$)"
         if re.search(main_desc_pattern, content, re.DOTALL):
-            updated_content = re.sub(main_desc_pattern, lambda m: m.group(0) + "\n\n" + siblings_table, content, flags=re.DOTALL)
+            updated_content = re.sub(main_desc_pattern, r"\1\n\n" + new_family_section + r"\n\n\2", content, flags=re.DOTALL)
         else:
             # If main description not found, just add at the beginning
-            updated_content = siblings_table + "\n\n" + content
+            updated_content = new_family_section + "\n\n" + content
     
     with open(readme_path, 'w') as file:
         file.write(updated_content)
