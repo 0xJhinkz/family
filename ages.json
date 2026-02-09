@@ -3,13 +3,13 @@
     {
       "name": "Jay-r",
       "birthdate": "2006-02-14",
-      "age": 19,
+      "age": 20,
       "age_details": {
-        "years": 19,
-        "months": 12,
-        "days": 4,
-        "hours": 3,
-        "total_years": 20.01095890410959
+        "years": 20,
+        "months": 0,
+        "days": 0,
+        "hours": 2,
+        "total_years": 20.0
       }
     },
     {
@@ -19,9 +19,9 @@
       "age_details": {
         "years": 17,
         "months": 5,
-        "days": 25,
-        "hours": 3,
-        "total_years": 17.4851598173516
+        "days": 26,
+        "hours": 2,
+        "total_years": 17.487899543378997
       }
     },
     {
@@ -31,12 +31,12 @@
       "age_details": {
         "years": 1,
         "months": 5,
-        "days": 22,
-        "hours": 3,
-        "total_years": 1.4769406392694064
+        "days": 23,
+        "hours": 2,
+        "total_years": 1.4796803652968038
       }
     }
   ],
-  "last_updated": "2026-02-08",
-  "last_updated_full": "February 08, 2026 11:16:43 (WITA)"
+  "last_updated": "2026-02-09",
+  "last_updated_full": "February 09, 2026 10:24:23 (WITA)"
 }
