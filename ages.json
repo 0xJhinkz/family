@@ -7,9 +7,9 @@
       "age_details": {
         "years": 20,
         "months": 0,
-        "days": 0,
+        "days": 1,
         "hours": 2,
-        "total_years": 20.0
+        "total_years": 20.002739726027396
       }
     },
     {
@@ -19,9 +19,9 @@
       "age_details": {
         "years": 17,
         "months": 5,
-        "days": 26,
+        "days": 27,
         "hours": 2,
-        "total_years": 17.487899543378997
+        "total_years": 17.490639269406394
       }
     },
     {
@@ -31,12 +31,12 @@
       "age_details": {
         "years": 1,
         "months": 5,
-        "days": 23,
+        "days": 24,
         "hours": 2,
-        "total_years": 1.4796803652968038
+        "total_years": 1.482420091324201
       }
     }
   ],
-  "last_updated": "2026-02-09",
-  "last_updated_full": "February 09, 2026 10:45:39 (WITA)"
+  "last_updated": "2026-02-10",
+  "last_updated_full": "February 10, 2026 10:32:02 (WITA)"
 }
