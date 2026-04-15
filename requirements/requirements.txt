@@ -1,0 +1,4 @@
+# No external runtime packages required for Python 3.10+
+# `zoneinfo` is included in the Python standard library.
+# Keep tzdata here as a fallback when running in environments that need the timezone database.
+tzdata
