@@ -4,17 +4,17 @@ An automated system to track and update the ages of my siblings. The repository 
 
 ## Family Information
 
-> Last updated: July 25, 2026 11:17:13 (Denpasar, WITA Time (UTC+8))
+> Last updated: July 26, 2026 11:31:12 (Denpasar, WITA Time (UTC+8))
 
 Below are my siblings and their current ages:
 
 | Name | Birthdate | Age | Detailed Age |
 |------|-----------|-----|-------------|
-| Jay-r | February 14, 2006 | 20 | 20 years, 5 months, 16 days, 3 hours |
-| Noynoy | August 21, 2008 | 17 | 17 years, 11 months, 12 days, 3 hours |
-| Axel | August 20, 2024 | 1 | 1 years, 11 months, 9 days, 3 hours |
-| Russel | April 11, 2002 | 24 | 24 years, 3 months, 21 days, 3 hours |
-| Reinelyn | August 27, 2004 | 21 | 21 years, 11 months, 7 days, 3 hours |
+| Jay-r | February 14, 2006 | 20 | 20 years, 5 months, 17 days, 3 hours |
+| Noynoy | August 21, 2008 | 17 | 17 years, 11 months, 13 days, 3 hours |
+| Axel | August 20, 2024 | 1 | 1 years, 11 months, 10 days, 3 hours |
+| Russel | April 11, 2002 | 24 | 24 years, 3 months, 22 days, 3 hours |
+| Reinelyn | August 27, 2004 | 21 | 21 years, 11 months, 8 days, 3 hours |
 
 ## Contributing
 
