@@ -7,9 +7,9 @@
       "age_details": {
         "years": 20,
         "months": 7,
-        "days": 28,
+        "days": 29,
         "hours": 5,
-        "total_years": 20.660045662100455
+        "total_years": 20.66278538812785
       }
     },
     {
@@ -19,9 +19,9 @@
       "age_details": {
         "years": 18,
         "months": 1,
-        "days": 19,
+        "days": 20,
         "hours": 5,
-        "total_years": 18.13538812785388
+        "total_years": 18.138127853881276
       }
     },
     {
@@ -31,9 +31,9 @@
       "age_details": {
         "years": 2,
         "months": 1,
-        "days": 16,
+        "days": 17,
         "hours": 5,
-        "total_years": 2.1271689497716895
+        "total_years": 2.129908675799087
       }
     },
     {
@@ -43,9 +43,9 @@
       "age_details": {
         "years": 24,
         "months": 6,
-        "days": 3,
+        "days": 4,
         "hours": 5,
-        "total_years": 24.508219178082193
+        "total_years": 24.51095890410959
       }
     },
     {
@@ -55,12 +55,12 @@
       "age_details": {
         "years": 22,
         "months": 1,
-        "days": 14,
+        "days": 15,
         "hours": 5,
-        "total_years": 22.121689497716893
+        "total_years": 22.12442922374429
       }
     }
   ],
-  "last_updated": "2026-10-05",
-  "last_updated_full": "October 05, 2026 13:02:24 (WITA)"
+  "last_updated": "2026-10-06",
+  "last_updated_full": "October 06, 2026 13:49:38 (WITA)"
 }
